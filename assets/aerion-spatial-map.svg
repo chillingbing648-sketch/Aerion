@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620" role="img" aria-labelledby="t d">
+  <title id="t">AERION Spatial Interface product map</title>
+  <desc id="d">A dark spatial interface showing camera or virtual input flowing through hand tracking, spatial state, particle physics and rendering into an interactive HUD.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070a"/><stop offset="1" stop-color="#101827"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8fe7ff"/><stop offset="1" stop-color="#9da7ff"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      .sans{font-family:Inter,ui-sans-serif,system-ui,sans-serif}
+      .mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+      .line{stroke:#667085;stroke-opacity:.45;stroke-width:2}
+      .box{fill:#0d121a;stroke:#ffffff;stroke-opacity:.10}
+      .soft{fill:#ffffff;fill-opacity:.035;stroke:#ffffff;stroke-opacity:.08}
+    </style>
+  </defs>
+  <rect width="1400" height="620" rx="28" fill="url(#bg)"/>
+  <circle cx="690" cy="320" r="170" fill="#73d9ff" fill-opacity=".10" filter="url(#blur)"/>
+  <circle cx="1030" cy="330" r="135" fill="#8e9aff" fill-opacity=".08" filter="url(#blur)"/>
+
+  <text x="70" y="78" class="sans" fill="#f2f7ff" font-size="34" font-weight="700" letter-spacing="-1">AERION</text>
+  <text x="70" y="108" class="sans" fill="#d7e3f5" fill-opacity=".58" font-size="16">Spatial Interface · real-time gesture field</text>
+
+  <g transform="translate(70 165)">
+    <rect width="260" height="105" rx="18" class="box"/>
+    <text x="22" y="34" class="mono" fill="#8fe7ff" font-size="12">01 INPUT</text>
+    <text x="22" y="63" class="sans" fill="#f2f7ff" font-size="18" font-weight="600">Camera / Pointer</text>
+    <text x="22" y="86" class="sans" fill="#d7e3f5" fill-opacity=".50" font-size="12">Real or virtual spatial control</text>
+  </g>
+
+  <g transform="translate(390 165)">
+    <rect width="260" height="105" rx="18" class="box"/>
+    <text x="22" y="34" class="mono" fill="#8fe7ff" font-size="12">02 TRACK</text>
+    <text x="22" y="63" class="sans" fill="#f2f7ff" font-size="18" font-weight="600">Hand Tracker</text>
+    <text x="22" y="86" class="sans" fill="#d7e3f5" fill-opacity=".50" font-size="12">MediaPipe · two-hand landmarks</text>
+  </g>
+
+  <g transform="translate(710 165)">
+    <rect width="260" height="105" rx="18" class="box"/>
+    <text x="22" y="34" class="mono" fill="#8fe7ff" font-size="12">03 STATE</text>
+    <text x="22" y="63" class="sans" fill="#f2f7ff" font-size="18" font-weight="600">Spatial State</text>
+    <text x="22" y="86" class="sans" fill="#d7e3f5" fill-opacity=".50" font-size="12">Gesture intent + interaction phase</text>
+  </g>
+
+  <g transform="translate(1030 165)">
+    <rect width="260" height="105" rx="18" class="box"/>
+    <text x="22" y="34" class="mono" fill="#8fe7ff" font-size="12">04 FIELD</text>
+    <text x="22" y="63" class="sans" fill="#f2f7ff" font-size="18" font-weight="600">Particle Physics</text>
+    <text x="22" y="86" class="sans" fill="#d7e3f5" fill-opacity=".50" font-size="12">Trails · gravity · lenses · portals</text>
+  </g>
+
+  <g stroke="url(#glow)" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M330 217H390"/>
+    <path d="M650 217H710"/>
+    <path d="M970 217H1030"/>
+  </g>
+
+  <g transform="translate(180 360)">
+    <rect width="1040" height="170" rx="22" class="soft"/>
+    <text x="28" y="34" class="mono" fill="#a5b1c6" font-size="11">INTERACTION VOCABULARY</text>
+    <g class="sans" font-size="15">
+      <text x="28" y="72" fill="#f2f7ff">Open Palm</text><text x="28" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Awaken core</text>
+      <text x="210" y="72" fill="#f2f7ff">Point</text><text x="210" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Air trail</text>
+      <text x="370" y="72" fill="#f2f7ff">Pinch</text><text x="370" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Lens / matter</text>
+      <text x="550" y="72" fill="#f2f7ff">Fist</text><text x="550" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Gravity collapse</text>
+      <text x="760" y="72" fill="#f2f7ff">Two Hands</text><text x="760" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Dimensional portal</text>
+      <text x="28" y="140" fill="#f2f7ff">Swipe</text><text x="28" y="160" fill="#d7e3f5" fill-opacity=".50" font-size="12">Energy wave</text>
+      <text x="210" y="140" fill="#f2f7ff">Palm Hold</text><text x="210" y="160" fill="#d7e3f5" fill-opacity=".50" font-size="12">Time dilation</text>
+      <text x="370" y="140" fill="#f2f7ff">Virtual Mode</text><text x="370" y="160" fill="#d7e3f5" fill-opacity=".50" font-size="12">Pointer fallback</text>
+    </g>
+  </g>
+</svg>
