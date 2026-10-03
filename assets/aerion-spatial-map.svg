@@ -1,71 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620" role="img" aria-labelledby="t d">
-  <title id="t">AERION Spatial Interface product map</title>
-  <desc id="d">A dark spatial interface showing camera or virtual input flowing through hand tracking, spatial state, particle physics and rendering into an interactive HUD.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070a"/><stop offset="1" stop-color="#101827"/></linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8fe7ff"/><stop offset="1" stop-color="#9da7ff"/></linearGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
-    <style>
-      .sans{font-family:Inter,ui-sans-serif,system-ui,sans-serif}
-      .mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
-      .line{stroke:#667085;stroke-opacity:.45;stroke-width:2}
-      .box{fill:#0d121a;stroke:#ffffff;stroke-opacity:.10}
-      .soft{fill:#ffffff;fill-opacity:.035;stroke:#ffffff;stroke-opacity:.08}
-    </style>
-  </defs>
-  <rect width="1400" height="620" rx="28" fill="url(#bg)"/>
-  <circle cx="690" cy="320" r="170" fill="#73d9ff" fill-opacity=".10" filter="url(#blur)"/>
-  <circle cx="1030" cy="330" r="135" fill="#8e9aff" fill-opacity=".08" filter="url(#blur)"/>
-
-  <text x="70" y="78" class="sans" fill="#f2f7ff" font-size="34" font-weight="700" letter-spacing="-1">AERION</text>
-  <text x="70" y="108" class="sans" fill="#d7e3f5" fill-opacity=".58" font-size="16">Spatial Interface · real-time gesture field</text>
-
-  <g transform="translate(70 165)">
-    <rect width="260" height="105" rx="18" class="box"/>
-    <text x="22" y="34" class="mono" fill="#8fe7ff" font-size="12">01 INPUT</text>
-    <text x="22" y="63" class="sans" fill="#f2f7ff" font-size="18" font-weight="600">Camera / Pointer</text>
-    <text x="22" y="86" class="sans" fill="#d7e3f5" fill-opacity=".50" font-size="12">Real or virtual spatial control</text>
-  </g>
-
-  <g transform="translate(390 165)">
-    <rect width="260" height="105" rx="18" class="box"/>
-    <text x="22" y="34" class="mono" fill="#8fe7ff" font-size="12">02 TRACK</text>
-    <text x="22" y="63" class="sans" fill="#f2f7ff" font-size="18" font-weight="600">Hand Tracker</text>
-    <text x="22" y="86" class="sans" fill="#d7e3f5" fill-opacity=".50" font-size="12">MediaPipe · two-hand landmarks</text>
-  </g>
-
-  <g transform="translate(710 165)">
-    <rect width="260" height="105" rx="18" class="box"/>
-    <text x="22" y="34" class="mono" fill="#8fe7ff" font-size="12">03 STATE</text>
-    <text x="22" y="63" class="sans" fill="#f2f7ff" font-size="18" font-weight="600">Spatial State</text>
-    <text x="22" y="86" class="sans" fill="#d7e3f5" fill-opacity=".50" font-size="12">Gesture intent + interaction phase</text>
-  </g>
-
-  <g transform="translate(1030 165)">
-    <rect width="260" height="105" rx="18" class="box"/>
-    <text x="22" y="34" class="mono" fill="#8fe7ff" font-size="12">04 FIELD</text>
-    <text x="22" y="63" class="sans" fill="#f2f7ff" font-size="18" font-weight="600">Particle Physics</text>
-    <text x="22" y="86" class="sans" fill="#d7e3f5" fill-opacity=".50" font-size="12">Trails · gravity · lenses · portals</text>
-  </g>
-
-  <g stroke="url(#glow)" stroke-width="2.5" fill="none" stroke-linecap="round">
-    <path d="M330 217H390"/>
-    <path d="M650 217H710"/>
-    <path d="M970 217H1030"/>
-  </g>
-
-  <g transform="translate(180 360)">
-    <rect width="1040" height="170" rx="22" class="soft"/>
-    <text x="28" y="34" class="mono" fill="#a5b1c6" font-size="11">INTERACTION VOCABULARY</text>
-    <g class="sans" font-size="15">
-      <text x="28" y="72" fill="#f2f7ff">Open Palm</text><text x="28" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Awaken core</text>
-      <text x="210" y="72" fill="#f2f7ff">Point</text><text x="210" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Air trail</text>
-      <text x="370" y="72" fill="#f2f7ff">Pinch</text><text x="370" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Lens / matter</text>
-      <text x="550" y="72" fill="#f2f7ff">Fist</text><text x="550" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Gravity collapse</text>
-      <text x="760" y="72" fill="#f2f7ff">Two Hands</text><text x="760" y="95" fill="#d7e3f5" fill-opacity=".50" font-size="12">Dimensional portal</text>
-      <text x="28" y="140" fill="#f2f7ff">Swipe</text><text x="28" y="160" fill="#d7e3f5" fill-opacity=".50" font-size="12">Energy wave</text>
-      <text x="210" y="140" fill="#f2f7ff">Palm Hold</text><text x="210" y="160" fill="#d7e3f5" fill-opacity=".50" font-size="12">Time dilation</text>
-      <text x="370" y="140" fill="#f2f7ff">Virtual Mode</text><text x="370" y="160" fill="#d7e3f5" fill-opacity=".50" font-size="12">Pointer fallback</text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">AERION Spatial Interface</title>
+<desc id="d">A dark full-screen AERION interface with live spatial matter, a glowing central core, hand landmarks, interaction trails and the minimal HUD.</desc>
+<defs>
+<radialGradient id="b"><stop stop-color="#16283b"/><stop offset=".45" stop-color="#09121d"/><stop offset="1" stop-color="#040608"/></radialGradient>
+<radialGradient id="c"><stop stop-color="#effcff"/><stop offset=".16" stop-color="#8fe7ff" stop-opacity=".95"/><stop offset=".55" stop-color="#78d8ff" stop-opacity=".22"/><stop offset="1" stop-color="#78d8ff" stop-opacity="0"/></radialGradient>
+<filter id="g"><feGaussianBlur stdDeviation="16"/></filter>
+<style>.s{font-family:Inter,ui-sans-serif,system-ui,sans-serif}.m{font-family:"IBM Plex Mono",monospace}</style>
+</defs>
+<rect width="1600" height="900" rx="34" fill="#040608"/>
+<rect x="24" y="24" width="1552" height="852" rx="28" fill="url(#b)" stroke="#fff" stroke-opacity=".08"/>
+<circle cx="805" cy="440" r="245" fill="#74d8ff" opacity=".08" filter="url(#g)"/>
+<!-- HUD -->
+<text x="82" y="92" class="s" font-size="25" font-weight="650" fill="#f2f7ff">AERION</text>
+<text x="82" y="118" class="s" font-size="14" fill="#d8e7f5" opacity=".48">Spatial Interface</text>
+<circle cx="1390" cy="87" r="5" fill="#9feaff"/>
+<text x="1410" y="93" text-anchor="end" class="s" font-size="15" fill="#f2f7ff">Active</text>
+<text x="1410" y="118" text-anchor="end" class="s" font-size="12" fill="#d8e7f5" opacity=".45">Ice Blue</text>
+<!-- central spatial matter -->
+<circle cx="805" cy="440" r="142" fill="none" stroke="#9feaff" stroke-opacity=".55" stroke-width="2"/>
+<ellipse cx="805" cy="440" rx="185" ry="60" fill="none" stroke="#9ca7ff" stroke-opacity=".30" stroke-width="2" transform="rotate(-18 805 440)"/>
+<ellipse cx="805" cy="440" rx="160" ry="52" fill="none" stroke="#d8f8ff" stroke-opacity=".18" stroke-width="1.5" transform="rotate(42 805 440)"/>
+<circle cx="805" cy="440" r="112" fill="url(#c)"/>
+<circle cx="805" cy="440" r="20" fill="#dffbff" opacity=".9" filter="url(#g)"/>
+<circle cx="805" cy="440" r="9" fill="#fff"/>
+<!-- matter -->
+<g fill="#c9f5ff">
+<circle cx="647" cy="402" r="4"/><circle cx="710" cy="282" r="2"/><circle cx="938" cy="470" r="4"/>
+<circle cx="1007" cy="330" r="2"/><circle cx="1030" cy="590" r="3"/><circle cx="560" cy="590" r="2"/>
+<circle cx="1180" cy="390" r="2"/><circle cx="450" cy="520" r="2"/><circle cx="705" cy="650" r="2"/>
+</g>
+<!-- air trail -->
+<path d="M365 605 C510 560 555 465 655 434 S790 430 875 395 S1045 300 1225 240" fill="none" stroke="#8ee8ff" stroke-opacity=".25" stroke-width="15" filter="url(#g)"/>
+<path d="M365 605 C510 560 555 465 655 434 S790 430 875 395 S1045 300 1225 240" fill="none" stroke="#b8f2ff" stroke-opacity=".6" stroke-width="2.2"/>
+<!-- tracked hand -->
+<g fill="none" stroke="#dff9ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
+<path d="M315 548 L292 468 L300 380 L324 316 L342 326 L336 395"/>
+<path d="M336 395 L340 286 L357 250 L372 260 L369 360"/>
+<path d="M369 360 L390 255 L407 226 L424 240 L414 356"/>
+<path d="M414 356 L446 278 L466 259 L480 273 L454 371"/>
+<path d="M454 371 L490 320 L508 312 L520 328 L490 420"/>
+<path d="M315 548 L350 582 L420 596 L484 570 L512 520"/>
+</g>
+<g fill="#aeeeff"><circle cx="315" cy="548" r="7"/><circle cx="340" cy="286" r="6"/><circle cx="390" cy="255" r="6"/><circle cx="446" cy="278" r="6"/><circle cx="490" cy="320" r="6"/><circle cx="414" cy="356" r="6"/></g>
+<!-- pinch interaction -->
+<circle cx="1275" cy="405" r="31" fill="none" stroke="#9feaff" stroke-opacity=".35" stroke-width="2"/>
+<circle cx="1275" cy="405" r="8" fill="#dffbff"/>
+<path d="M1190 490 Q1240 430 1275 405 T1370 370" fill="none" stroke="#dff9ff" stroke-opacity=".6" stroke-width="4" stroke-linecap="round"/>
+<rect x="1310" y="450" width="176" height="44" rx="22" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".1"/>
+<circle cx="1332" cy="472" r="4" fill="#9feaff"/>
+<text x="1346" y="477" class="s" font-size="13" fill="#eef7ff">Spatial Lens</text>
+<!-- bottom HUD -->
+<text x="82" y="805" class="m" font-size="11" letter-spacing="1.4" fill="#d8e7f5" opacity=".32">INTERACTION</text>
+<text x="82" y="835" class="s" font-size="19" fill="#f2f7ff">Spatial Core</text>
+<text x="800" y="831" text-anchor="middle" class="m" font-size="11" letter-spacing="1.2" fill="#d8e7f5" opacity=".48">AERION ONLINE</text>
+<rect x="1290" y="790" width="200" height="44" rx="22" fill="#fff" fill-opacity=".045" stroke="#fff" stroke-opacity=".1"/>
+<text x="1312" y="817" class="s" font-size="13" fill="#d8e7f5" opacity=".62">↻ Recenter</text>
+<text x="1414" y="817" class="s" font-size="13" fill="#d8e7f5" opacity=".62">?</text>
+<text x="1435" y="817" class="s" font-size="13" fill="#eef7ff">Gestures</text>
 </svg>
