@@ -2,9 +2,9 @@
 
 # ◌ AERION
 
-### **Spatial interaction, without the interface.**
+### **Move. Shape. Bend the Field.**
 
-A browser-based spatial interface that turns hand movement — or a pointer in virtual mode — into a live field of digital matter, gesture-driven interactions, and atmospheric visual feedback.
+A browser-based spatial interface where hand movement becomes motion, matter, and control — with a virtual pointer mode when a camera is unavailable.
 
 <p>
   <a href="https://chillingbing648-sketch.github.io/Aerion/"><strong>✦ Open Live Experience</strong></a>
@@ -32,11 +32,11 @@ A browser-based spatial interface that turns hand movement — or a pointer in v
 ---
 
 <p align="center">
-  <img src="./assets/aerion-spatial-map.svg" alt="AERION product and interaction architecture" width="1100">
+  <img src="./assets/aerion-spatial-map.svg" alt="AERION spatial interface with particle field, hand tracking and live HUD" width="1100">
 </p>
 
 <p align="center">
-  <sub>Input → Hand Tracking → Spatial State → Physics → Canvas Rendering → Spatial HUD</sub>
+  <sub>Camera / Pointer → Gesture Field → Spatial Matter → Live HUD</sub>
 </p>
 
 ---
