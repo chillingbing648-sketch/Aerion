@@ -2,29 +2,24 @@
 
 # ◌ AERION
 
-### **Move. Shape. Bend the Field.**
+### **Make space responsive.**
 
-A browser-based spatial interface where hand movement becomes motion, matter, and control — with a virtual pointer mode when a camera is unavailable.
+A real-time spatial interface where your hands shape a living field of light, matter, and motion.
 
 <p>
-  <a href="https://chillingbing648-sketch.github.io/Aerion/"><strong>✦ Open Live Experience</strong></a>
+  <a href="https://chillingbing648-sketch.github.io/Aerion/"><strong>ENTER THE EXPERIENCE ↗</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/chillingbing648-sketch/Aerion"><strong>⌘ View Source</strong></a>
+  <a href="https://github.com/chillingbing648-sketch/Aerion">Explore the source</a>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=111" alt="React 19">
-  <img src="https://img.shields.io/badge/TypeScript-7.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript 7">
-  <img src="https://img.shields.io/badge/Vite-8.3-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 8.3">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4.3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4.3">
-  <img src="https://img.shields.io/badge/MediaPipe-Tasks%20Vision-FF6F00?style=for-the-badge" alt="MediaPipe Tasks Vision">
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Lucide-React-111827?style=for-the-badge&logo=lucide&logoColor=white" alt="Lucide React">
-  <img src="https://img.shields.io/badge/Canvas-2D-0B1220?style=for-the-badge" alt="Canvas 2D">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-Deploy-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/GitHub%20Pages-Live-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages">
+  <img src="https://img.shields.io/badge/React-19-101820?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19">
+  <img src="https://img.shields.io/badge/TypeScript-7-101820?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript 7">
+  <img src="https://img.shields.io/badge/Vite-8-101820?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite 8">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-101820?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS 4">
+  <img src="https://img.shields.io/badge/MediaPipe-Hand_Landmarker-101820?style=flat-square&logo=google&logoColor=FFFFFF" alt="MediaPipe Hand Landmarker">
+  <img src="https://img.shields.io/badge/Canvas-2D-101820?style=flat-square" alt="Canvas 2D">
+  <img src="https://img.shields.io/badge/Deploy-GitHub_Pages-101820?style=flat-square&logo=githubpages&logoColor=FFFFFF" alt="GitHub Pages">
 </p>
 
 </div>
@@ -32,429 +27,259 @@ A browser-based spatial interface where hand movement becomes motion, matter, an
 ---
 
 <p align="center">
-  <img src="./assets/aerion-spatial-map.svg" alt="AERION spatial interface with particle field, hand tracking and live HUD" width="1100">
+  <img src="./assets/aerion-spatial-map.svg" alt="AERION's dark spatial interface: a luminous central core, orbital field, tracked hand landmarks, motion trails, and minimal heads-up display" width="100%">
 </p>
 
-<p align="center">
-  <sub>Camera / Pointer → Gesture Field → Spatial Matter → Live HUD</sub>
-</p>
+<div align="center">
+  <sub>CAMERA OR POINTER &nbsp; / &nbsp; GESTURE RECOGNITION &nbsp; / &nbsp; SPATIAL PHYSICS &nbsp; / &nbsp; LIVE CANVAS</sub>
+</div>
 
 ---
 
-## ✦ The Concept
+## The idea
 
-AERION treats the screen as a **spatial field instead of a collection of controls**.
+**What if a screen behaved less like a page and more like a space?**
 
-There is no conventional dashboard to operate. The main experience is a continuous canvas where physical hand motion becomes interaction and the resulting state is reflected through particles, trails, lenses, portals, gravity effects, and a restrained HUD.
+AERION explores that question through a full-screen digital field. Move your hand to disturb the particles. Point to draw light through the air. Pinch to gather matter. Bring two hands together to form a portal. The interface reacts continuously, rather than waiting for a sequence of clicks.
 
-The application supports two entry paths:
+There is no conventional dashboard to navigate. A quiet heads-up display stays at the edges while the canvas does the expressive work.
 
-| Path | What happens |
+<div align="center">
+
+| **INPUT** | **INTERPRETATION** | **RESPONSE** |
+|:---:|:---:|:---:|
+| Hand / pointer | Gesture + motion | Matter, light + force |
+
+</div>
+
+## Step inside
+
+### Two ways to explore
+
+**Camera mode** uses MediaPipe Hand Landmarker to track up to two hands in real time. The live, mirrored camera layer becomes part of the atmosphere while your gestures shape the field.
+
+**Virtual Spatial Mode** maps pointer movement and keyboard modifiers onto the same interaction model. No camera permission is needed, making it a practical way to try the experience or explore on a device without a webcam.
+
+### The interaction atlas
+
+| Gesture / input | What it does |
 |---|---|
-| **Camera mode** | Webcam frames feed MediaPipe Hand Landmarker for real-time two-hand tracking. |
-| **Virtual Spatial Mode** | Pointer input simulates a hand so the experience remains usable without a camera. |
+| **Open palm** | Awakens a luminous spatial core and orbital halo. |
+| **Point** | Draws and attracts particles into flowing air trails. |
+| **Pinch** | Condenses nearby trails into a manipulable object. |
+| **Steady pinch** | Can summon the refractive Spatial Lens in open space. |
+| **Quick pinch release** | Triggers a Reality Burst that sends matter outward. |
+| **Fist** | Pulls surrounding particles into a rotating gravity well. |
+| **Palm hold** | Enters a time-dilation interaction state. |
+| **Two hands** | Forms a dimensional portal; hand distance shapes its scale. |
+| **Swipe** | Sends an energy wave through the field and shifts its palette. |
 
-The core implementation lives in React, while the high-frequency spatial loop runs through dedicated TypeScript systems rather than React re-rendering every frame.
+The in-app **Gestures** guide explains the core vocabulary. The experience is intentionally exploratory: gesture recognition depends on camera visibility, hand position, lighting, and the stability of the tracking environment.
 
----
+### Virtual controls
 
-## ◌ Interaction Vocabulary
-
-| Gesture | Spatial response |
+| Input | Virtual action |
 |---|---|
-| **Open Palm** | Awakens the spatial core and orbital field |
-| **Point** | Draws luminous air trails |
-| **Pinch** | Condenses and manipulates digital matter; steady pinches can summon the Spatial Lens |
-| **Fist** | Creates a gravitational collapse well |
-| **Palm Hold** | Enters the time-dilation interaction state |
-| **Two Hands** | Builds and expands a dimensional portal between the hands |
-| **Swipe** | Produces an energy-wave interaction |
-| **Virtual Pointer** | Mirrors the interaction model without camera tracking |
-
-The in-app **Gestures** guide exposes the same interaction vocabulary to the user.
+| Move pointer | Move the simulated hand |
+| Pointer down | Pinch-like interaction |
+| Hold `Shift` | Simulate a fist / gravity interaction |
+| Hold `Alt` | Simulate an open hand and second-hand input |
+| `R` or `Space` | Recenter spatial matter |
 
 ---
 
-## 🧠 How AERION Works
+## How the field works
 
-The application separates sensing, state, simulation, rendering, and presentation.
+AERION separates the interface shell from the real-time interaction loop. React coordinates the experience and HUD; dedicated TypeScript systems handle tracking, gesture state, particle motion, and canvas rendering.
 
 ```text
-Camera / Pointer
-      │
-      ▼
-MediaPipe Hand Landmarker
-      │
-      ▼
-HandTracker
-      │
-      ├── gesture features
-      ├── smoothing
-      └── hand state
-      │
-      ▼
-SpatialState / SpatialBus
-      │
-      ├── lens
-      ├── portal
-      ├── wipe / motion state
-      └── UX phase
-      │
-      ▼
-ParticleEngine
-      │
-      ├── gravity
-      ├── trails
-      ├── matter
-      └── particle motion
-      │
-      ▼
-SpatialRenderer
-      │
-      ├── main canvas
-      ├── offscreen canvas
-      └── camera compositing
-      │
-      ▼
-SpatialHUD
+ CAMERA ──► MediaPipe Hand Landmarker ──► HandTracker ──┐
+                                                       │
+ POINTER ──► Virtual hand input ───────────────────────┤
+                                                       ▼
+                                             Spatial State + Bus
+                                                       │
+                        ┌──────────────────────────────┼─────────────────────┐
+                        ▼                              ▼                     ▼
+                  Gesture logic                 Particle physics      UX / HUD state
+                        └──────────────────────────────┼─────────────────────┘
+                                                       ▼
+                                              Spatial Renderer
+                                                       ▼
+                                             Full-screen 2D Canvas
 ```
 
-This separation keeps the visual field responsive while limiting React state updates to meaningful HUD changes.
+### The systems behind the sensation
 
----
-
-## ⚙️ Runtime Architecture
-
-```text
-src/
-├── components/
-│   ├── AuraVignette.tsx
-│   ├── CameraLayer.tsx
-│   ├── GateModal.tsx
-│   ├── SpatialCanvas.tsx
-│   └── SpatialHUD.tsx
-│
-├── hooks/
-│   ├── useCamera.ts
-│   └── useHandTracking.ts
-│
-├── systems/
-│   ├── QualityEngine.ts
-│   ├── gesture/
-│   │   ├── GestureFeatures.ts
-│   │   ├── Hand.ts
-│   │   ├── HandTracker.ts
-│   │   ├── Smoother.ts
-│   │   └── types.ts
-│   ├── physics/
-│   │   └── ParticleEngine.ts
-│   ├── rendering/
-│   │   ├── SpatialRenderer.ts
-│   │   └── SpriteFactory.ts
-│   └── spatial/
-│       ├── SpatialBus.ts
-│       └── SpatialState.ts
-│
-├── App.tsx
-├── index.css
-└── main.tsx
-```
-
-### Responsibility map
-
-| Layer | Responsibility |
+| System | Responsibility |
 |---|---|
-| **Components** | Entry gate, camera surface, canvas shell and spatial HUD |
-| **Hooks** | Camera lifecycle and MediaPipe model lifecycle |
-| **Gesture system** | Hand features, poses, smoothing and tracking state |
-| **Physics system** | Particle simulation and interaction forces |
-| **Spatial system** | Shared spatial state and interaction phases |
-| **Rendering system** | Canvas drawing, projection, glow and compositing |
-| **Quality engine** | Adaptive particle quality for changing frame performance |
+| **Gesture engine** | Extracts hand features, interprets poses, smooths motion, and maintains tracked-hand state. |
+| **Spatial state + bus** | Coordinates interaction phases, the core, lens, portal, trails, bursts, and shared events. |
+| **Particle engine** | Simulates drift, hand-driven forces, gravity, orbital motion, vortices, and burst effects. |
+| **Spatial renderer** | Draws the field through Canvas 2D, with layered effects and camera compositing. |
+| **Quality engine** | Adjusts particle density according to frame timing and device characteristics. |
+| **React UI** | Handles startup, camera permission, virtual mode, contextual status, and the gesture guide. |
+
+The animation loop uses `requestAnimationFrame`. Tracking, simulation, and drawing run outside React's normal render cycle; HUD updates are emitted when meaningful interaction state changes. This keeps rapidly changing spatial data out of the component tree.
+
+## Designed to adapt
+
+AERION starts with different particle budgets based on the detected device context:
+
+| Context | Initial particle budget |
+|---|---:|
+| Typical desktop | Up to 800 |
+| Mobile / coarse pointer | Up to 420 |
+| Reduced-motion preference | Up to 280 |
+
+The quality system monitors recent frame duration and can lower or recover particle density over time. Device-pixel ratio is capped, and reduced-motion preferences are passed into the simulation and rendering systems. These are adaptation strategies, not a guarantee of a fixed frame rate on every device.
+
+## The visual language
+
+AERION keeps the interface quiet so the interaction remains the focal point.
+
+- **Spatial matter** — a particle field that shifts between ambient drift and gesture-driven force.
+- **Air trails** — luminous paths drawn through point gestures.
+- **Spatial Lens** — an optical, refractive surface summoned through sustained interaction.
+- **Reality Burst** — a short-range shockwave that pushes nearby matter outward.
+- **Gravity Collapse** — a rotating field that draws particles inward.
+- **Dimensional Portal** — a two-hand vortex whose scale and energy respond to hand placement.
+- **Atmospheric camera layer** — a mirrored video surface, toned to sit behind the spatial rendering.
+- **Contextual HUD** — small status, palette, interaction, recenter, and gesture-guide controls.
+
+The intent is not to imitate a science-fiction dashboard. It is to make motion, physical response, and visual feedback feel like one continuous system.
 
 ---
 
-## 🖐️ Hand Tracking Pipeline
+## Run it locally
 
-AERION uses **MediaPipe Tasks Vision** with the Hand Landmarker in video mode.
+### Prerequisites
 
-Current configuration:
-
-- up to **2 hands**
-- GPU delegate attempted first
-- CPU fallback when GPU initialization fails
-- minimum detection confidence: **0.55**
-- minimum presence confidence: **0.50**
-- minimum tracking confidence: **0.50**
-
-The hand-tracking model and WebAssembly runtime are loaded from public CDNs at runtime.
-
-Camera frames are processed in the browser; the repository does not define a remote application backend for this interaction loop.
-
----
-
-## ⚡ Performance Model
-
-AERION is designed around a high-frequency animation loop rather than continuous React rendering.
-
-### Adaptive quality
-
-The `QualityEngine` monitors recent frame duration and can reduce or recover the active particle count according to runtime conditions.
-
-```text
-Frame health
-    │
-    ├── Slow → reduce particle count
-    │
-    └── Healthy → recover particle count
-```
-
-Additional runtime considerations include:
-
-- mobile-aware rendering
-- reduced-motion preference detection
-- capped device-pixel ratio
-- offscreen canvas support
-- smoothed gesture confidence
-- discrete HUD updates to reduce React overhead
-
----
-
-## ◇ Virtual Spatial Mode
-
-AERION does not require a camera to explore the spatial field.
-
-Virtual mode maps pointer input onto the same hand-state abstraction used by the gesture engine.
-
-| Input | Virtual behavior |
-|---|---|
-| **Pointer move** | Spatial hand position |
-| **Pointer down** | Pinch-like interaction |
-| **Shift** | Fist simulation |
-| **Alt** | Open/second-hand simulation |
-| **R / Space** | Recenter digital matter |
-
-This makes the experience testable on machines where camera permissions are unavailable.
-
----
-
-## ◐ Experience Layer
-
-The UI intentionally stays quiet while the canvas remains active.
-
-The current HUD provides:
-
-- AERION spatial identity
-- live/searching tracking state
-- current palette
-- contextual micro-hints
-- interaction state
-- gesture guide
-- camera toggle from virtual mode
-- recenter control
-
-The HUD also uses a small blur-to-sharp transition when the detected interaction state changes.
-
----
-
-## 🔐 Camera, Model & Privacy Notes
-
-AERION requires camera access only for camera-controlled interaction.
-
-Important runtime details:
-
-- camera access requires a secure context outside localhost
-- the MediaPipe WASM runtime is loaded from jsDelivr
-- the hand-landmarker model is loaded from Google Cloud Storage
-- hand processing occurs in the browser
-- the current repository exposes no application database, login system, or API backend for user data
-
-Virtual Spatial Mode provides a camera-free path for experimentation.
-
----
-
-## 🛠️ Technology Stack
-
-| Area | Technology |
-|---|---|
-| UI | React 19 |
-| Language | TypeScript |
-| Build | Vite 8 |
-| Styling | Tailwind CSS 4 |
-| Hand tracking | MediaPipe Tasks Vision |
-| Rendering | HTML Canvas 2D |
-| Icons | Lucide React |
-| Deployment | GitHub Actions + GitHub Pages |
-
----
-
-## 🚀 Run Locally
-
-### Requirements
-
-- Node.js 22+
+- Node.js 22 recommended
 - npm
-- a modern browser
-- camera permission for camera mode
+- A current desktop or mobile browser
+- Camera access for camera mode; virtual mode works without it
 
-### Install
+### Install and launch
 
 ```bash
+git clone https://github.com/chillingbing648-sketch/Aerion.git
+cd Aerion
 npm ci
-```
-
-### Development
-
-```bash
 npm run dev
 ```
 
-### Type-check
+Open the local URL printed by Vite.
+
+### Verify a production build
 
 ```bash
 npm run lint
-```
-
-### Production build
-
-```bash
 npm run build
-```
-
-### Preview production build
-
-```bash
 npm run preview
 ```
 
----
+- `npm run lint` runs TypeScript's no-emit check.
+- `npm run build` creates the production bundle in `dist/`.
+- `npm run preview` serves that built bundle locally.
 
-## ☁️ Deployment
+## Deployment
 
-The repository includes a GitHub Pages workflow.
+AERION is published through GitHub Actions and GitHub Pages.
 
-```text
-git push origin main
-        │
-        ▼
-GitHub Actions
-        │
-        ▼
-npm ci
-        │
-        ▼
-npm run build
-        │
-        ▼
-dist/
-        │
-        ▼
-GitHub Pages
-```
+1. Push a change to `main`, or manually run the deployment workflow.
+2. The workflow installs dependencies with `npm ci`.
+3. Vite builds the production bundle.
+4. The workflow publishes `dist/` to GitHub Pages.
 
-Vite uses a relative asset base:
+The deployment workflow lives at `.github/workflows/deploy.yml`. Vite is configured with `base: './'` so generated assets can resolve from the repository's Pages path.
 
-```js
-base: './'
-```
-
-so the production bundle can resolve correctly when hosted below a domain root.
+<p align="center">
+  <a href="https://chillingbing648-sketch.github.io/Aerion/"><strong>Open the live experience ↗</strong></a>
+</p>
 
 ---
 
-## 📁 Project Structure
+## Camera, model loading & privacy
+
+Camera mode requires explicit browser permission and a secure context; `localhost` is suitable for local development. If a camera is unavailable or permission is denied, use Virtual Spatial Mode instead.
+
+The hand-tracking runtime and model are fetched from external hosts when initialized:
+
+- MediaPipe Tasks Vision WebAssembly assets: jsDelivr
+- Hand Landmarker model: Google Cloud Storage
+
+Hand detection runs client-side in the browser. The repository does not define an application backend or a video-upload endpoint for this experience. External asset requests are still required to load the tracking runtime and model.
+
+GPU delegate initialization is attempted first; if it fails, the hand landmarker falls back to CPU. Performance and tracking stability vary with camera quality, lighting, browser support, and device capabilities.
+
+## Project map
 
 ```text
 AERION/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
+├── .github/workflows/
+│   └── deploy.yml
 ├── assets/
 │   └── aerion-spatial-map.svg
 ├── src/
 │   ├── components/
+│   │   ├── AuraVignette.tsx
+│   │   ├── CameraLayer.tsx
+│   │   ├── GateModal.tsx
+│   │   ├── SpatialCanvas.tsx
+│   │   └── SpatialHUD.tsx
 │   ├── hooks/
+│   │   ├── useCamera.ts
+│   │   └── useHandTracking.ts
 │   ├── systems/
+│   │   ├── gesture/
+│   │   ├── physics/
+│   │   ├── rendering/
+│   │   ├── spatial/
+│   │   └── QualityEngine.ts
 │   ├── App.tsx
 │   ├── index.css
-│   ├── main.tsx
-│   └── vite-env.d.ts
+│   └── main.tsx
 ├── index.html
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
-├── vite.config.ts
-└── README.md
+└── vite.config.ts
 ```
 
----
+## Current scope
 
-## ⚠️ Current Constraints
+**Implemented:** camera-based hand tracking, two-hand support, virtual pointer control, gesture smoothing, physics-driven particles, lens and burst effects, gravity interaction, portal behavior, contextual HUD, gesture guide, adaptive quality, reduced-motion awareness, and GitHub Pages deployment.
 
-- camera mode requires permission and a secure context
-- gesture/model initialization depends on external MediaPipe assets
-- GPU hand-tracking initialization can fall back to CPU
-- the visual field is intentionally computationally active; adaptive quality helps, but device performance still matters
-- the current project is an interactive spatial experiment rather than a conventional productivity application
+**Boundaries to know:** this is an interactive spatial experiment, not a conventional productivity app. It does not provide account management, cloud-saved sessions, an application API, or a server-side video-processing service. Hand tracking depends on external model/WASM availability and still benefits from good lighting and a clearly visible hand.
 
----
+## Troubleshooting
 
-## 🗺️ Current Scope
-
-### Implemented
-
-- [x] Camera-driven hand tracking
-- [x] Two-hand support
-- [x] Virtual spatial control
-- [x] Gesture detection and smoothing
-- [x] Particle field and physics
-- [x] Spatial Lens interaction
-- [x] Gravity collapse interaction
-- [x] Dimensional portal interaction
-- [x] Atmospheric camera layer
-- [x] Contextual HUD
-- [x] Gesture guide
-- [x] Adaptive quality controls
-- [x] Reduced-motion awareness
-- [x] GitHub Pages deployment
-
-### Possible future refinement
-
-- richer gesture vocabulary
-- deeper interaction chaining
-- more spatial objects
-- expanded accessibility cues
-- additional performance instrumentation
-- stronger onboarding for first-time users
+| Issue | Try this |
+|---|---|
+| Camera option is unavailable | Open the site in a modern browser over HTTPS or use `localhost`; check browser camera permissions. |
+| No hand is detected | Improve lighting, keep the hand inside the frame, and avoid hiding fingers behind objects. |
+| Model initialization fails | Check connectivity to jsDelivr and Google Cloud Storage, then reload and retry. |
+| Performance feels slow | Close GPU-heavy tabs, try a smaller browser window, or switch to Virtual Spatial Mode to isolate camera/model overhead. |
+| Camera permission is denied | Update the site's permission in browser settings or continue with virtual controls. |
 
 ---
 
-## ◌ Design Principle
-
-AERION is built around one idea:
-
-> **The interface should respond to movement, not wait for a click.**
-
-```text
-Motion
-   ↓
-Interpretation
-   ↓
-Physical response
-   ↓
-Visual feedback
-```
-
-The goal is not to reproduce a traditional control panel in a futuristic skin. It is to make the screen behave more like a responsive spatial surface.
-
----
+## Design principle
 
 <div align="center">
 
-### AERION
+### **Move through the field. The field responds.**
 
-**Spatial Interface**
+Motion becomes input. Input becomes force. Force becomes a visible world.
 
-*Move through the field. The field responds.*
+</div>
+
+AERION is an experiment in making a digital interface feel less like something you operate and more like something you can physically influence.
+
+<div align="center">
+
+[**ENTER AERION ↗**](https://chillingbing648-sketch.github.io/Aerion/)  
+<sub>Built with React, TypeScript, MediaPipe, and Canvas 2D.</sub>
 
 </div>
